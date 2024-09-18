@@ -16,9 +16,15 @@
             <input type="email" name="email" id="email" required>
             <label for="senha">Senha</label>
             <input type="password" name="senha" id="senha" required>
-
-
+            <label for="perfil">Perfil:</label>
+            <section nome="perfil" id="perfil">
+                <option value="adimin">Adimin</option>
+                <option value="gestor">Gestor</option>
+                <option value="colaborador">Colaborador</option>
+            </section>
+            <button type="submit">Cadastrar</button>
         </form>
+        <a href="">Voltar ao Login</a>
     </div>
 </body>
 </html>
