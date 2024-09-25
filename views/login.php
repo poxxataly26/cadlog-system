@@ -8,7 +8,7 @@
 </head>
 <body>
     <main>
-        <form action="index.php?action=login" method="post">
+        <form action="" method="post">
             <section>
                 <label for="email">Email</label>
                 <input type="email" name="email" id="email" required>

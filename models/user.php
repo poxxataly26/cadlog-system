@@ -32,8 +32,10 @@ class User
     // Função para criar um novo usuário no banco de dados 
     static public function create($data){
         $conn = Database::getConnection();
-        $stmt = $conn->prepare("INSERT INTO usuario(nome, email, senha, perfil) VALUES (:nome, :email, :senha, :perfil)");
+        $stmt = $conn->prepare("INSERT INTO usuarios (nome, email, senha, perfil) VALUES (:nome, :email, :senha, :perfil)");
         $stmt->execute($data);
+
+        return $stmt->fetch(PDO::FETCH_ASSOC);
     }
 
 

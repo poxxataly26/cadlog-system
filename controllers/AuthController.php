@@ -21,7 +21,7 @@ class AuthController
                 $_SESSION['usuario_id'] = $user['id'];
                 $_SESSION['perfil']     = $user['perfil']; 
                 
-                header('Location: index.php?action=dashboad');
+                header('Location: index.php?action=dashboard');
             }else{
                 include 'views/register.php';
             }
