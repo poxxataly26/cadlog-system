@@ -27,8 +27,9 @@
                 <option value="colaborador">Colaborador</option>
             </select>
             <button type="submit">Cadastrar</button>
+            <a href="index.php?action=login">Voltar ao Login</a>
         </form>
-        <a href="index.php?action=login">Voltar ao Login</a>
+        
     </div>
 </body>
 </html>
