@@ -10,7 +10,7 @@
     <main>
         <form action="" method="post">
             <section>
-                <label for="email">Email</label>
+                <label for="email">E-mail</label>
                 <input type="email" name="email" id="email" required>
             </section>
             <section>

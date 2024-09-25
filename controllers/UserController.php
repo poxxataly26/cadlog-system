@@ -1,5 +1,5 @@
 <?php
-
+ 
 class UserController
 {
     // Função para registrar um novo usuário
@@ -13,7 +13,7 @@ class UserController
                 'senha'  => password_hash($_POST['senha'], PASSWORD_DEFAULT), // Criptografa a senha
                 'perfil' => $_POST['perfil']
             ];
-
+ 
             // Chama o método create do Model User para criar um novo usuário no BD
             User::create($data);
             header('Location: index.php');
@@ -22,5 +22,5 @@ class UserController
         }
     }
 }
-
+ 
 ?>
