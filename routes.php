@@ -20,7 +20,7 @@ switch ($action){
         $userController->register();
         break;
     default:
-    $authController->login();
+        $authController->login();
     break;
 }
 
