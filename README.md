@@ -28,6 +28,14 @@ Model: É responsável pela lógica e interação com o banco de dados
 View: É responsável pela apresentação do usuário  
 Controller: É responsável por gerenciar as requisições e respostas do sistema  
 
+## Autores
+
+. Talyta Augusto  
+[Talyta](https://github.com/poxxataly26/cadlog-system) 
+
+
+
+
 Autor
 
 [Seu Nome]
