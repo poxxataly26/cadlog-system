@@ -16,10 +16,10 @@ Validação de senha segura
 
 ### Tecnologias Usadas
 
-. PHP  
-. MySQL 
-. HTML5 
-. CSS 
+.PHP  
+.MySQL  
+.HTML5  
+.CSS  
 
 ## Arquitetura
 
