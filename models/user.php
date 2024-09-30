@@ -21,11 +21,8 @@ class User
  
     static public function find($id){
         $conn = Database::getConnection();
- 
         $stmt = $conn->prepare("SELECT * FROM usuarios WHERE id = :id");
- 
         $stmt->execute(['id' => $id]);
- 
         return $stmt->fetch(PDO::FETCH_ASSOC);
     }
  
@@ -34,8 +31,6 @@ class User
         $conn = Database::getConnection();
         $stmt = $conn->prepare("INSERT INTO usuarios (nome, email, senha, perfil) VALUES (:nome, :email, :senha, :perfil)");
         $stmt->execute($data);
- 
-        return $stmt->fetch(PDO::FETCH_ASSOC);
     }
  
  
