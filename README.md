@@ -14,7 +14,7 @@ Cadastro de usuário
 Login de usuário
 Validação de senha segura 
 
-### Tecnologias Usadas
+### Tecnologias Utilizadas
 
 .PHP  
 .MySQL  
@@ -23,10 +23,11 @@ Validação de senha segura
 
 ## Arquitetura
 
-O sistema utiliza uma arquitetura MVC, com os seguintes componentes:
-Model: responsável pela lógica de negócios e interação com o banco de dados
-View: responsável pela apresentação da interface do usuário
-Controller: responsável por gerenciar as requisições e respostas do sistema
+O sistema utiliza uma arquitetura MVC, com as seguintes pastas:  
+Model: É responsável pela lógica e interação com o banco de dados  
+View: É responsável pela apresentação do usuário  
+Controller: É responsável por gerenciar as requisições e respostas do sistema  
+
 Autor
 
 [Seu Nome]
