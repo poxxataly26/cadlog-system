@@ -1,7 +1,20 @@
 # cadlog-system
-## Login
+
+## Tela de Login
 
 ![image info](https://github.com/poxxataly26/cadlog-system/blob/main/img/Login.png)
+
+## Tela de Cadastro 
+
+![image info](https://github.com/poxxataly26/cadlog-system/blob/main/img/Cadastro.png)
+
+## Registrado
+
+![image info](https://github.com/poxxataly26/cadlog-system/blob/main/img/Registrando.png)
+
+## Dashboard
+
+![image info](https://github.com/poxxataly26/cadlog-system/blob/main/img/Dashboard.png)
 
 ## Organização vou explicar o que cada um desses controladores.
 
