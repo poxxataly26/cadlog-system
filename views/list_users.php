@@ -1,7 +1,7 @@
 <?php
     session_start();
 
-    if(isset($_SESSION['perfil']));
+    if(isset($_SESSION['perfil'])):
 ?>
 
 <!DOCTYPE html>
@@ -27,16 +27,24 @@
                 </tr>
             </thead>
             <tbody>
-                <?php foreach($user as $user) ?>
+                <?php foreach($user as $user): ?>
                 <tr>
                     <td> <?php $user['id'] ?> </td>
                     <td> <?php $user['nome'] ?> </td>
                     <td> <?php $user['email'] ?> </td>
                     <td> <?php $user['perfil'] ?> </td>
-                    <td> <?php if ($_SESSION['perfil'] == 'admin' || $_SESSION['perfil'] == 'gestor'): ?></td>
-                        <a href="">Editar</a>
+                    <td> 
+                        <?php if ($_SESSION['perfil'] == 'admin' || $_SESSION['perfil'] == 'gestor'): ?></td>
+                            <a href="">Editar</a>
+                        <?php endif; ?>
+
+                        <?php if ($_SESSION['perfil'] == 'admin'): ?>
+                            <a href="">Excluir</a>
                         <?php endif; ?>
                 </tr>
+
+                <?php endforeach; ?>
+
             </tbody>
         </table>
 
@@ -46,6 +54,6 @@
 </body>
 </html>
 
-<?php else ?>
+<?php else: ?>
 <p>erro: voce não tem permissão para visualizar esta pagina</p>
 <?php endif; ?>
