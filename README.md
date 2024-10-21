@@ -1,5 +1,28 @@
 # cadlog-system
 
+## Organização vou explicar o que cada um desses controladores.
+
+# 1 - AuthController
+
+Gerencia a autenticação de usuários.
+
+# Principais Funções:
+
+* Login: (Email e Senha) verifica se estão corretas.
+* Logout: Encerrar a sessão do usuário.
+* Registro: Criar um novo usuário no sistema, a validação de dados e ver se a senha é segura.
+* Recuperação de Senha: Permitir que os usuários recuperem suas senhas se esquecer.
+
+# 2 - DashboardController
+
+Gerencia a lógica do painel de controle da aplicação.
+
+# Principais Funções:
+
+Exibir Dados: Coletar e apresentar informações relevantes para o usuário, como estatísticas, gráficos e resumos de atividades.
+Controle de Acesso: Garantir que apenas usuários autenticados e autorizados possam acessar o dashboard.
+Interação com Outros Módulos: Comunicar-se com outros controladores para obter dados necessários para a exibição no dashboard.
+
 ## Introdução
 
 Este é um codigo de gerenciamento de usuários desenvolvido em PHP, com o objetivo fácil de usar para gerenciar contas de usuários.
