@@ -10,7 +10,7 @@
 
 <body class=""> <!-- Define a classe com base no perfil -->
     <div class="container">
-        <h1>Bem-vindo, Usuario!</h1>
+        <h1>Bem-vindo, Usuário!</h1>
         <p>Esta é a visão do perfil PERFIL.</p>
             <!-- Admin pode gerenciar usuários (editar e excluir) -->
             <a href="index.php?action=list" class="btn">Gerenciar Usuários (Admin)</a>
