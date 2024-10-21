@@ -16,7 +16,7 @@
 
 ![image info](https://github.com/poxxataly26/cadlog-system/blob/main/img/Dashboard.png)
 
-## Organização vou explicar o que cada um desses controladores.
+## Organização, vou explicar o que cada um desses controladores a baixo.
 
 ## 1 - AuthController
 
