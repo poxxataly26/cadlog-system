@@ -6,7 +6,7 @@
 
 Gerencia a autenticação de usuários.
 
-# Principais Funções:
+### Principais Funções:
 
 * Login: (Email e Senha) verifica se estão corretas.
 * Logout: Encerrar a sessão do usuário.
@@ -17,11 +17,11 @@ Gerencia a autenticação de usuários.
 
 Gerencia a lógica do painel de controle da aplicação.
 
-# Principais Funções:
+### Principais Funções:
 
-Exibir Dados: Coletar e apresentar informações relevantes para o usuário, como estatísticas, gráficos e resumos de atividades.
-Controle de Acesso: Garantir que apenas usuários autenticados e autorizados possam acessar o dashboard.
-Interação com Outros Módulos: Comunicar-se com outros controladores para obter dados necessários para a exibição no dashboard.
+* Exibir Dados: Coletar e apresentar informações para o usuário, como estatísticas, gráficos e resumos de atividades.
+* Controle de Acesso: Garantir que apenas usuários autenticados e autorizados possam acessar o dashboard.
+
 
 ## Introdução
 
