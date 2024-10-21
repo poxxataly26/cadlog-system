@@ -2,7 +2,7 @@
 
 ## Organização vou explicar o que cada um desses controladores.
 
-# 1 - AuthController
+## 1 - AuthController
 
 Gerencia a autenticação de usuários.
 
@@ -13,7 +13,7 @@ Gerencia a autenticação de usuários.
 * Registro: Criar um novo usuário no sistema, a validação de dados e ver se a senha é segura.
 * Recuperação de Senha: Permitir que os usuários recuperem suas senhas se esquecer.
 
-# 2 - DashboardController
+## 2 - DashboardController
 
 Gerencia a lógica do painel de controle da aplicação.
 
