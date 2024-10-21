@@ -22,6 +22,16 @@ Gerencia a lógica do painel de controle da aplicação.
 * Exibir Dados: Coletar e apresentar informações para o usuário, como estatísticas, gráficos e resumos de atividades.
 * Controle de Acesso: Garantir que apenas usuários autenticados e autorizados possam acessar o dashboard.
 
+## 3 - UserController
+
+Relaciona aos usuários do sistema.
+
+### Principais Funções:
+
+* Listar Usuários: Recuperar e mostrar uma lista de usuários cadastrados.
+* Criar/Editar Usuário: Permitir a criação de novos usuários e a edição das informações de usuários que existe
+* Deletar Usuário: Remover usuários do sistema.
+* Gerenciar Perfis: Permitir que os usuários atualizem suas informações pessoais e preferências.
 
 ## Introdução
 
