@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <style>
 body {
     font-family: Arial, sans-serif;
@@ -69,17 +69,17 @@ a:hover {
         <p>Esta é a visão do perfil PERFIL.</p>
             <!-- Admin pode gerenciar usuários (editar e excluir) -->
             <a href="index.php?action=list" class="btn">Gerenciar Usuários (Admin)</a>
-
+ 
             <!-- Gestor pode gerenciar usuários (apenas editar) -->
             <a href="index.php?action=list" class="btn">Gerenciar Usuários (Gestor)</a>
             <p>Área exclusiva do Gestor.</p>
-
+ 
             <p>Área exclusiva do Colaborador.</p>
-
+ 
             <br><br><br><br>
             <!-- Link para logout -->
-            <a href="" class="btn">Logout</a>
+            <a href="index.php?action=logout" class="btn">Logout</a>
     </div>
-    
+   
 </body>
 </html>
