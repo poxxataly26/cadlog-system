@@ -23,7 +23,7 @@ class AuthController
                 
                 header('Location: index.php?action=dashboard');
             }else{
-                include 'views/register.php';
+                echo "Email ou senha incorretos";
             }
         }else{
             include 'views/login.php';
