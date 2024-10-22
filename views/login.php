@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
     <style>
 body{
     background-image: linear-gradient(to right, rgb(81, 185, 255), black);
@@ -66,7 +67,8 @@ a:hover {
 }
 
     </style>
-    <title>Login</title>
+
+        <title>Login</title>
 </head>
 <body>
     <main>
