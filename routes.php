@@ -25,6 +25,8 @@ switch ($action){
     case 'dashboard';
         $dashboradController->index();
         break;
+    case 'list':
+        $userController->list();
     default:
         $authController->login();
     break;

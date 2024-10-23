@@ -14,7 +14,7 @@
 
 ## Dashboard
 
-![image info](https://github.com/poxxataly26/cadlog-system/blob/main/img/Dashboard.png)
+![image info]()
 
 ## Organização, vou explicar o que cada um desses controladores a baixo.
 
