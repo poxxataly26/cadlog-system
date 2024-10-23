@@ -16,6 +16,10 @@
 
 ![image info]()
 
+## Lista de Usuário
+
+![image info]()
+
 ## Organização, vou explicar o que cada um desses controladores a baixo.
 
 ## 1 - AuthController
