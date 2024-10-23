@@ -7,6 +7,7 @@
 
     <style>
 body {
+    background-image: linear-gradient(to right, #2271B3, black);
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -30,7 +31,7 @@ p {
     margin-bottom: 20px;
 }
 .btn {
-    background-color: #4CAF50;
+    background-color: #07FF;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -38,7 +39,7 @@ p {
     cursor: pointer;
 }
 .btn:hover {
-    background-color: #3e8e41;
+    background-color: #2271B3;
 }
 a {
     text-decoration: none;
