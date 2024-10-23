@@ -10,15 +10,15 @@
 
 ## Registrado
 
-![image info]()
+![image info](https://github.com/poxxataly26/cadlog-system/blob/main/img/Registrando.png)
 
 ## Dashboard
 
-![image info]()
+![image info](https://github.com/poxxataly26/cadlog-system/blob/main/img/Dashboard.png)
 
 ## Lista de Usuário
 
-![image info]()
+![image info](https://github.com/poxxataly26/cadlog-system/blob/main/img/Lista%20de%20Usu%C3%A1rio.png)
 
 ## Organização, vou explicar o que cada um desses controladores a baixo.
 
