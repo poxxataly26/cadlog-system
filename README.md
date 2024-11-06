@@ -22,7 +22,7 @@
 
 ## Gif
 
-![image info]()
+![image info](https://github.com/poxxataly26/cadlog-system/blob/main/img/Gif.gif)
 
 ## Organização, vou explicar o que cada um desses controladores a baixo.
 
