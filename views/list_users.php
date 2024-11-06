@@ -97,7 +97,7 @@ h2 {
                             <td> <?= $user['perfil'] ?> </td>
                             <td>
                                 <?php if ($_SESSION['perfil'] == 'admin' || $_SESSION['perfil'] == 'gestor') : ?>
-                                    <a href="">Editar</a>
+                                    <a href="index.php?action=edit&id=<?=$user['id'] ?>" class="btn">Editar</a>
                                 <?php endif; ?>
 
                                 <?php if ($_SESSION['perfil'] == 'admin') : ?>
@@ -111,7 +111,7 @@ h2 {
                 </tbody>
             </table>
 
-            <a href="index.php?action=login" class="btn">Voltar ao Dashboard</a>
+            <a href="index.php?action=dashboard" class="btn">Voltar ao Dashboard</a>
         </div>
 
     </body>
