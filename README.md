@@ -16,10 +16,6 @@
 
 ![image info](https://github.com/poxxataly26/cadlog-system/blob/main/img/Dashboard.png)
 
-## Lista de Usuário
-
-![image info](https://github.com/poxxataly26/cadlog-system/blob/main/img/Lista%20de%20Usu%C3%A1rio.png)
-
 ## Gif
 
 ![image info](https://github.com/poxxataly26/cadlog-system/blob/main/img/Gif.gif)
