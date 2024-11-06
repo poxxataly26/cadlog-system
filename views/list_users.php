@@ -111,7 +111,7 @@ h2 {
                 </tbody>
             </table>
 
-            <a href="" class="btn">Voltar ao Dashboard</a>
+            <a href="index.php?action=login" class="btn">Voltar ao Dashboard</a>
         </div>
 
     </body>
