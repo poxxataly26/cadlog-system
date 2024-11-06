@@ -69,19 +69,19 @@ O projeto tem vários arquivos e classes que fazem em conjunto as funcionalidade
 
 ### Funcionalidades
 
-Login: Usuários podem se cadastrar no sistema utilizando email e senha.  
-Logout: Usuários podem sair da sessão, o que destruirá a sessão ativa.  
-Cadastro: Novos usuários podem ser cadastrados no sistema, atribuindo um perfil (admin, gestor ou colaborador).  
-Dashboard: Dependendo do perfil, usuários terão acesso a funcionalidades específicas no painel de controle.  
-Gerenciamento de Usuários: Administradores e gestores podem editar e excluir usuários.  
-Controle de Sessões: A sessão de usuário é gerenciada de forma que apenas usuários autenticados possam acessar áreas restritas. 
+* Login: Usuários podem se cadastrar no sistema utilizando email e senha.  
+* Logout: Usuários podem sair da sessão, o que destruirá a sessão ativa.  
+* Cadastro: Novos usuários podem ser cadastrados no sistema, atribuindo um perfil (admin, gestor ou colaborador).  
+* Dashboard: Dependendo do perfil, usuários terão acesso a funcionalidades específicas no painel de controle.  
+* Gerenciamento de Usuários: Administradores e gestores podem editar e excluir usuários.  
+* Controle de Sessões: A sessão de usuário é gerenciada de forma que apenas usuários autenticados possam acessar áreas restritas. 
 
 ### Tecnologias Utilizadas
 
-.PHP  
-.MySQL  
-.HTML5  
-.CSS  
+* PHP  
+* MySQL  
+* HTML5  
+* CSS  
 
 ## Arquitetura
 
