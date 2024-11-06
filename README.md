@@ -67,6 +67,19 @@ O sistema permite que os usuários se cadastrem e façam login. Ele utiliza (Mod
 
 O projeto tem vários arquivos e classes que fazem em conjunto as funcionalidades exatas.
 
+## Arquivos Principais
+
+. index.php: Arquivo principal que gerencia as rotas e chamadas para os controladores de autenticação, usuários e dashboard.  
+. models/user.php: Modelo de dados que representa o usuário e possui métodos para interagir com o banco de dados.  
+. models/database.php: Classe responsável pela conexão com o banco de dados utilizando PDO.  
+. controllers/AuthController.php: Controlador de autenticação, responsável pelas funcionalidades de login e logout.  
+controllers/UserController.php: Controlador para registro, listagem, edição e exclusão de usuários.
+. controllers/DashboardController.php: Controlador responsável por exibir o painel de controle (dashboard).  
+. views/login.php: Formulário de login.  
+. views/register.php: Formulário de cadastro de novos usuários.  
+. views/dashboard.php: Página do dashboard, exibindo o painel de controle baseado no perfil do usuário.  
+. views/list_users.php: Página para listagem e gerenciamento de usuários.  
+
 ### Funcionalidades
 
 * Login: Usuários podem se cadastrar no sistema utilizando email e senha.  
@@ -85,10 +98,12 @@ O projeto tem vários arquivos e classes que fazem em conjunto as funcionalidade
 
 ## Arquitetura
 
-O sistema utiliza uma arquitetura MVC, com as seguintes pastas:  
-Model: É responsável pela lógica e interação com o banco de dados  
-View: É responsável pela apresentação do usuário  
-Controller: É responsável por gerenciar as requisições e respostas do sistema  
+O sistema utiliza uma arquitetura MVC, com as seguintes pastas: 
+
+.Model: É responsável pela lógica e interação com o banco de dados  
+.View: É responsável pela apresentação do usuário  
+.Controller: É responsável por gerenciar as requisições e respostas do sistema    
+.Css: Arquivos de estilos CSS utilizados nas views.
 
 ## Autores
 
