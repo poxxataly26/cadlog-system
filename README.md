@@ -18,6 +18,8 @@
 
 ## Gif
 
+Este projeto mostra um sistema de autenticação de usuários com diferentes perfis (admin, gestor, colaborador), além de permitir a gestão de usuários (criação, edição e exclusão).
+
 ![image info](https://github.com/poxxataly26/cadlog-system/blob/main/img/Gif.gif)
 
 ## Organização, vou explicar o que cada um desses controladores a baixo.
@@ -67,9 +69,12 @@ O projeto tem vários arquivos e classes que fazem em conjunto as funcionalidade
 
 ### Funcionalidades
 
-Cadastro de usuário
-Login de usuário
-Validação de senha segura 
+Login: Usuários podem se cadastrar no sistema utilizando email e senha.  
+Logout: Usuários podem sair da sessão, o que destruirá a sessão ativa.  
+Cadastro: Novos usuários podem ser cadastrados no sistema, atribuindo um perfil (admin, gestor ou colaborador).  
+Dashboard: Dependendo do perfil, usuários terão acesso a funcionalidades específicas no painel de controle.  
+Gerenciamento de Usuários: Administradores e gestores podem editar e excluir usuários.  
+Controle de Sessões: A sessão de usuário é gerenciada de forma que apenas usuários autenticados possam acessar áreas restritas. 
 
 ### Tecnologias Utilizadas
 
