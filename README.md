@@ -20,6 +20,10 @@
 
 ![image info](https://github.com/poxxataly26/cadlog-system/blob/main/img/Lista%20de%20Usu%C3%A1rio.png)
 
+## Gif
+
+![image info]()
+
 ## Organização, vou explicar o que cada um desses controladores a baixo.
 
 ## 1 - AuthController
