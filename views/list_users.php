@@ -4,16 +4,16 @@ session_start();
 if (isset($_SESSION['perfil'])) :
 ?>
 
-    <!DOCTYPE html>
+    <!DOCTYPE html> 
     <html lang="pt-br">
 
     <head>
-        <meta charset="UTF-8">
+        <meta charset= "UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Lista de Usuários</title>
         <link rel="stylesheet" type="text/css" media="screen" href=""> <!-- Link para o arquivo CSS -->
-    <style>
+    <style>    
 body {
     background-image: linear-gradient(to right, #fff, black);
     font-family: Arial, sans-serif;
@@ -101,7 +101,7 @@ h2 {
                                 <?php endif; ?>
 
                                 <?php if ($_SESSION['perfil'] == 'admin') : ?>
-                                    <a href="">Excluir</a>
+                                    <a href="index.php?action=delete&id=<?=$user['id'] ?>" class="btn btn-delete" onclick="return confirm('Tem certeza que deseja excluir')">Excluir</a>
                                 <?php endif; ?>
                             </td>
                         </tr>
